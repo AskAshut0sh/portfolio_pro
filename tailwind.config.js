@@ -9,26 +9,26 @@ module.exports = {
     extend: {
       colors: {
         // Primary Colors
-        'primary': '#E50914', // Netflix-inspired red - red-600
-        'secondary': '#F5F5F1', // Warm off-white - stone-100
-        'accent': '#FFD700', // Strategic gold - yellow-400
+        'primary': 'var(--color-primary)',
+        'secondary': 'var(--color-secondary)',
+        'accent': 'var(--color-accent)',
         
         // Background Colors
-        'background': '#141414', // Deep charcoal - gray-900
-        'surface': '#1F1F1F', // Elevated surface - gray-800
+        'background': 'var(--color-background)',
+        'surface': 'var(--color-surface)',
         
         // Text Colors
-        'text-primary': '#FFFFFF', // Pure white - white
-        'text-secondary': '#B3B3B3', // Muted gray - gray-400
+        'text-primary': 'var(--color-text-primary)',
+        'text-secondary': 'var(--color-text-secondary)',
         
         // Status Colors
-        'success': '#46D369', // Fresh green - green-500
-        'warning': '#FFB800', // Warm amber - amber-500
-        'error': '#FF6B6B', // Softer red - red-400
+        'success': 'var(--color-success)',
+        'warning': 'var(--color-warning)',
+        'error': 'var(--color-error)',
         
         // Border Colors
-        'border': 'rgba(255, 255, 255, 0.1)', // Subtle white border
-        'border-focus': 'rgba(229, 9, 20, 0.5)', // Primary focus border
+        'border': 'var(--color-border)',
+        'border-focus': 'var(--color-border-focus)',
       },
       fontFamily: {
         'heading': ['Inter', 'sans-serif'],

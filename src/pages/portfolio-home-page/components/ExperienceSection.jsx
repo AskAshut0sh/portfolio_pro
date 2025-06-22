@@ -244,7 +244,7 @@ const ExperienceSection = () => {
               <Icon name="TrendingUp" size={32} className="text-accent" />
             </div>
             <h3 className="text-text-primary font-heading font-bold text-fluid-xl mb-2">
-              50+ Projects
+              10+ Projects
             </h3>
             <p className="text-text-secondary text-fluid-base font-body">
               Successfully Delivered

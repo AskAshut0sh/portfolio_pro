@@ -230,12 +230,10 @@ const ProjectsSection = () => {
 
   const openProjectModal = (project) => {
     setSelectedProject(project);
-    document.body.style.overflow = 'hidden';
   };
 
   const closeProjectModal = () => {
     setSelectedProject(null);
-    document.body.style.overflow = 'unset';
   };
 
   return (

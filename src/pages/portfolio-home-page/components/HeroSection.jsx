@@ -55,7 +55,7 @@ const HeroSection = () => {
             
             {/* Greeting */}
             <div className="space-y-2">
-              <p className="text-accent font-body font-semibold text-fluid-lg tracking-wide">
+              <p className="text-black-600 font-body font-semibold text-fluid-lg tracking-wide">
                 Hello, I'm
               </p>
               <h1 className="text-text-primary font-heading font-bold text-fluid-4xl leading-tight">

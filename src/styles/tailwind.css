@@ -8,27 +8,35 @@
 @tailwind utilities;
 
 :root {
-  /* Primary Colors */
-  --color-primary: #E50914; /* Netflix-inspired red - red-600 */
-  --color-secondary: #F5F5F1; /* Warm off-white - stone-100 */
-  --color-accent: #FFD700; /* Strategic gold - yellow-400 */
-  
-  /* Background Colors */
-  --color-background: #141414; /* Deep charcoal - gray-900 */
-  --color-surface: #1F1F1F; /* Elevated surface - gray-800 */
-  
-  /* Text Colors */
-  --color-text-primary: #FFFFFF; /* Pure white - white */
-  --color-text-secondary: #B3B3B3; /* Muted gray - gray-400 */
-  
-  /* Status Colors */
-  --color-success: #46D369; /* Fresh green - green-500 */
-  --color-warning: #FFB800; /* Warm amber - amber-500 */
-  --color-error: #FF6B6B; /* Softer red - red-400 */
-  
-  /* Border Colors */
-  --color-border: rgba(255, 255, 255, 0.1); /* Subtle white border */
-  --color-border-focus: rgba(229, 9, 20, 0.5); /* Primary focus border */
+  /* Light mode colors */
+  --color-primary: #E50914;
+  --color-secondary: #F5F5F1;
+  --color-accent: #FFD700;
+  --color-background: #ffffff;
+  --color-surface: #f5f5f1;
+  --color-text-primary: #141414;
+  --color-text-secondary: #444444;
+  --color-success: #46D369;
+  --color-warning: #FFB800;
+  --color-error: #FF6B6B;
+  --color-border: rgba(20, 20, 20, 0.1);
+  --color-border-focus: rgba(229, 9, 20, 0.5);
+}
+
+.dark {
+  /* Dark mode colors */
+  --color-primary: #E50914;
+  --color-secondary: #F5F5F1;
+  --color-accent: #FFD700;
+  --color-background: #141414;
+  --color-surface: #1F1F1F;
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #B3B3B3;
+  --color-success: #46D369;
+  --color-warning: #FFB800;
+  --color-error: #FF6B6B;
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-border-focus: rgba(229, 9, 20, 0.5);
 }
 
 @layer base {

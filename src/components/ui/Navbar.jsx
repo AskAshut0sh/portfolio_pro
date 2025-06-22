@@ -75,7 +75,7 @@ const Navbar = () => {
                 onClick={() => handleNavClick('about')}
                 className="text-text-primary font-heading font-bold text-fluid-lg hover:text-primary animation-smooth"
               >
-                QA Portfolio
+                My Portfolio
               </button>
             </div>
 
@@ -107,7 +107,7 @@ const Navbar = () => {
             </button>
 
             {/* CV Download Button */}
-            <div className="hidden md:block">
+            {/* <div className="hidden md:block">
               <button
                 onClick={handleCVDownload}
                 className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-lg font-body font-semibold text-fluid-sm transition-all duration-200 hover-scale shadow-elevation-1 hover:shadow-elevation-2"
@@ -117,7 +117,7 @@ const Navbar = () => {
                   <span>Download CV</span>
                 </div>
               </button>
-            </div>
+            </div> */}
 
             {/* Mobile menu button */}
             <div className="md:hidden">
