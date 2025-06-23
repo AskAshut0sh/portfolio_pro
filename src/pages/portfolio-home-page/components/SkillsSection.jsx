@@ -75,8 +75,8 @@ const SkillsSection = () => {
   }, []);
 
   const getSkillColor = (level) => {
-    if (level >= 90) return 'bg-success';
-    if (level >= 80) return 'bg-primary';
+    // if (level >= 90) return 'bg-success';
+    if (level >= 80) return 'bg-success';
     if (level >= 70) return 'bg-warning';
     return 'bg-error';
   };
@@ -170,7 +170,7 @@ const SkillsSection = () => {
               <Icon name="Award" size={32} className="text-primary" />
             </div>
             <h3 className="text-text-primary font-heading font-bold text-fluid-xl mb-2">
-              15+ Tools
+              10+ Tools
             </h3>
             <p className="text-text-secondary text-fluid-base font-body">
               Proficient in various testing and automation tools

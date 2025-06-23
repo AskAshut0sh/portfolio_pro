@@ -97,37 +97,27 @@ const Navbar = () => {
               </div>
             </div>
 
-            {/* Theme Toggle Button */}
-            <button
-              onClick={toggleTheme}
-              className="ml-4 p-2 rounded-lg bg-surface border border-white/10 hover:bg-primary/10 transition-colors duration-200"
-              aria-label="Toggle theme"
-            >
-              <Icon name={theme === "dark" ? "Sun" : "Moon"} size={20} />
-            </button>
-
-            {/* CV Download Button */}
-            {/* <div className="hidden md:block">
+            {/* Spacer to push theme toggle and menu to the right */}
+            <div className="flex items-center ml-auto">
+              {/* Theme Toggle Button */}
               <button
-                onClick={handleCVDownload}
-                className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-lg font-body font-semibold text-fluid-sm transition-all duration-200 hover-scale shadow-elevation-1 hover:shadow-elevation-2"
+                onClick={toggleTheme}
+                className="p-2 rounded-lg bg-surface border border-white/10 hover:bg-primary/10 transition-colors duration-200"
+                aria-label="Toggle theme"
               >
-                <div className="flex items-center space-x-2">
-                  <Icon name="Download" size={16} />
-                  <span>Download CV</span>
-                </div>
+                <Icon name={theme === "dark" ? "Sun" : "Moon"} size={20} />
               </button>
-            </div> */}
 
-            {/* Mobile menu button */}
-            <div className="md:hidden">
-              <button
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-text-primary hover:text-primary p-2 rounded-md transition-colors duration-200"
-                aria-label="Toggle menu"
-              >
-                <Icon name={isMenuOpen ? "X" : "Menu"} size={24} />
-              </button>
+              {/* Mobile menu button */}
+              <div className="md:hidden ml-2">
+                <button
+                  onClick={() => setIsMenuOpen(!isMenuOpen)}
+                  className="text-text-primary hover:text-primary p-2 rounded-md transition-colors duration-200"
+                  aria-label="Toggle menu"
+                >
+                  <Icon name={isMenuOpen ? "X" : "Menu"} size={24} />
+                </button>
+              </div>
             </div>
           </div>
         </div>
