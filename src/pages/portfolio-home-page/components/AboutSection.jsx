@@ -61,7 +61,7 @@ What drives me is the pursuit of excellence in software quality and the satisfac
   }, []);
 
   return (
-    <section id="about" className="py-24">
+    <section id="about" className="py-10">
       <div ref={sectionRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className={`transition-all duration-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
@@ -76,7 +76,7 @@ What drives me is the pursuit of excellence in software quality and the satisfac
                 className="w-full h-full object-cover"
               />
             </div>
-            <h2 className="text-text-primary font-heading font-bold text-fluid-2xl mb-2">
+            <h2 className="text-primary font-heading font-bold text-fluid-2xl mb-2">
               About Me
             </h2>
             <p className="text-text-secondary text-fluid-lg font-body max-w-2xl text-center">
